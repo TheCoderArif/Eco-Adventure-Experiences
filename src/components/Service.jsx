@@ -1,8 +1,10 @@
 import { FaMapMarkerAlt, FaClock, FaUsers } from "react-icons/fa";
-const Service = ({ service: adventure }) => {
+const Service = ({ service }) => {
+  const adventure = service;
+  console.log(adventure)
   return (
     <div>
-      <div className="border card bg-base-100 shadow-md hover:shadow-xl transition duration-300 rounded-2xl">
+      <div className="border  card bg-base-100 shadow-md hover:shadow-xl transition duration-300 rounded-2xl">
         {/* Image */}
         <figure className="relative h-52 overflow-hidden">
           <img
@@ -78,7 +80,7 @@ const Service = ({ service: adventure }) => {
             </span>
 
             <button className="btn btn-primary btn-sm rounded-full">
-              Book Now
+              Explore Now bbb
             </button>
           </div>
         </div>

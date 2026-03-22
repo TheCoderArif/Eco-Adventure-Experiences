@@ -5,6 +5,7 @@ import HeroSection from '../pages/HeroSection';
 import Services from '../components/Services';
 
 const HomeLayout = () => {
+    // console.log('dddddddd')
     return (
         <div className='w-11/12 mx-auto'>
             <header>

@@ -5,6 +5,7 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <HomeLayout></HomeLayout>,
+        hydrateFallbackElement: <div>Loading...</div>,
         loader: () => fetch('services.json')
     },
     {
