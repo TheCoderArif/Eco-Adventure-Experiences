@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import HeroSection from '../pages/HeroSection';
+import Services from '../components/Services';
 
 const HomeLayout = () => {
     return (
@@ -14,7 +15,7 @@ const HomeLayout = () => {
             </header>
 
             <main>
-
+                <Services></Services>
             </main>
 
             <footer>
